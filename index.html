@@ -1,0 +1,2513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="google-site-verification" content="sfrxBW9MCLq6iYcUDyoDBJ11DSIo1p7KBh8vmzRvs9U" />
+<title>Bebeto Coach Services — Premium East African Travel</title>
+<!-- Favicon -->
+<link rel="icon" type="image/jpeg" href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.01.25%20AM.jpeg">
+<link rel="apple-touch-icon" href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.01.25%20AM.jpeg">
+<link
+  href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap"
+  rel="stylesheet"
+/>
+<style>
+:root {
+  --orange: #F47B20;
+  --orange-dark: #C8600A;
+  --orange-light: #FFB347;
+  --blue-deep: #0D2B5E;
+  --blue-mid: #1A4A9E;
+  --blue-light: #2D6FD4;
+  --sky: #5BA4E6;
+  --gold: #C9A84C;
+  --gold-light: #E8C87A;
+  --cream: #FFF8F0;
+  --dark: #060D1A;
+  --white: #ffffff;
+  --gray: #6B7280;
+  --light-gray: #F3F4F6;
+}
+
+/* ─── NOISE TEXTURE ─── */
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  background-image: url(
+    "data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"
+  );
+  opacity: 0.45;
+  mix-blend-mode: overlay;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--dark);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* ─── NAV ─── */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 16px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(6, 13, 26, 0.88);
+  backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(201, 168, 76, 0.18);
+  transition: all 0.3s;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.nav-logo .logo-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-logo .logo-icon img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.nav-logo h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+.nav-logo span {
+  color: var(--orange);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+.nav-links a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  transition: color 0.2s;
+}
+.nav-links a:hover {
+  color: var(--orange);
+}
+
+.nav-cta {
+  background: var(--orange);
+  color: white !important;
+  padding: 9px 22px;
+  border-radius: 50px;
+  transition: background 0.2s, transform 0.2s !important;
+}
+.nav-cta:hover {
+  background: var(--orange-dark) !important;
+  transform: translateY(-1px);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.hamburger span {
+  width: 25px;
+  height: 2px;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* ─── HERO ─── */
+.hero {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 120px 5% 80px;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 75% 65% at 62% 48%, rgba(26, 74, 158, 0.42) 0%, transparent 68%), radial-gradient(ellipse 45% 38% at 82% 18%, rgba(244, 123, 32, 0.22) 0%, transparent 58%), radial-gradient(ellipse 35% 30% at 15% 80%, rgba(201, 168, 76, 0.07) 0%, transparent 55%), linear-gradient(160deg, #060D1A 0%, #0C1A30 52%, #060D1A 100%);
+}
+.hero-pattern {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(45deg, rgba(244, 123, 32, 0.03) 0px, rgba(244, 123, 32, 0.03) 1px, transparent 1px, transparent 40px), repeating-linear-gradient(-45deg, rgba(26, 74, 158, 0.04) 0px, rgba(26, 74, 158, 0.04) 1px, transparent 1px, transparent 40px);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 620px;
+  animation: fadeUp 1s ease both;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(201, 168, 76, 0.1);
+  border: 1px solid rgba(201, 168, 76, 0.35);
+  border-radius: 50px;
+  padding: 7px 20px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 28px;
+}
+.hero-badge::before {
+  content: "●";
+  font-size: 0.6em;
+  color: var(--gold);
+  animation: pulse 2.4s infinite;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+.hero h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.9rem, 6.2vw, 5rem);
+  font-weight: 700;
+  line-height: 1.03;
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.hero h2 em {
+  font-style: italic;
+  color: var(--orange);
+  position: relative;
+}
+.hero h2 em::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--orange), transparent);
+  border-radius: 2px;
+}
+.hero p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 40px;
+  max-width: 480px;
+}
+.hero-btns {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+  color: white;
+  padding: 16px 34px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 8px 30px rgba(244, 123, 32, 0.4);
+}
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(244, 123, 32, 0.5);
+}
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  color: white;
+  padding: 16px 34px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.2s;
+}
+.btn-secondary:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+.hero-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 56px;
+  animation: fadeUp 1s 0.3s ease both;
+}
+.stat-item h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  color: var(--orange);
+  letter-spacing: 0.02em;
+}
+.stat-item p {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 2px;
+}
+.hero-visual {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 52%;
+  overflow: hidden;
+}
+.hero-visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, var(--dark) 0%, transparent 35%),
+    linear-gradient(0deg, var(--dark) 0%, transparent 20%, transparent 80%, var(--dark) 100%);
+  z-index: 1;
+}
+.hero-visual-inner {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse 70% 70% at 60% 50%, rgba(26, 74, 158, 0.5), transparent),
+    url("https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.01.25%20AM.jpeg") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bus-illustration {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  max-width: 560px;
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.5));
+  border-radius: 8px;
+}
+/* Floating cards */
+.float-card {
+  position: absolute;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 14px 18px;
+  animation: float 4s ease-in-out infinite;
+}
+.float-card.card1 {
+  top: 22%;
+  right: 5%;
+  animation-delay: 0s;
+}
+.float-card.card2 {
+  bottom: 22%;
+  right: 12%;
+  animation-delay: 1.5s;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.float-card .card-label {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 4px;
+}
+.float-card .card-val {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+}
+.float-card .card-sub {
+  font-size: 0.72rem;
+  color: var(--orange-light);
+  margin-top: 2px;
+}
+
+/* ─── BOOKING SECTION ─── */
+.booking-section {
+  background: var(--cream);
+  padding: 80px 5%;
+  position: relative;
+}
+.section-tag {
+  display: inline-block;
+  background: rgba(201, 168, 76, 0.08);
+  border: 1px solid rgba(201, 168, 76, 0.28);
+  color: var(--gold-light);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 5px 16px;
+  border-radius: 50px;
+  margin-bottom: 14px;
+}
+.section-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  color: var(--blue-deep);
+  font-weight: 700;
+  line-height: 1.08;
+  margin-bottom: 10px;
+  letter-spacing: -0.005em;
+}
+.section-title span {
+  color: var(--orange);
+}
+.section-sub {
+  color: var(--gray);
+  font-size: 1rem;
+  margin-bottom: 48px;
+  max-width: 500px;
+}
+.booking-card {
+  background: white;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(13, 43, 94, 0.12);
+  max-width: 900px;
+  margin: 0 auto;
+}
+.booking-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 16px;
+  align-items: end;
+}
+.form-group label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--blue-deep);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.form-group select,
+.form-group input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #E5E7EB;
+  border-radius: 12px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.95rem;
+  color: var(--blue-deep);
+  background: white;
+  transition: border-color 0.2s;
+  outline: none;
+  -webkit-appearance: none;
+}
+.form-group select:focus,
+.form-group input:focus {
+  border-color: var(--orange);
+}
+.class-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.class-tab {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #E5E7EB;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gray);
+  transition: all 0.2s;
+}
+.class-tab.active {
+  border-color: var(--orange);
+  background: rgba(244, 123, 32, 0.08);
+  color: var(--orange-dark);
+}
+.btn-book {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--orange), #E06010);
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-family: "DM Sans", sans-serif;
+  box-shadow: 0 6px 20px rgba(244, 123, 32, 0.35);
+}
+.btn-book:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(244, 123, 32, 0.45);
+}
+.whatsapp-note {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--gray);
+  font-size: 0.85rem;
+}
+.wa-icon {
+  width: 32px;
+  height: 32px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+/* ─── ROUTES ─── */
+.routes-section {
+  padding: 100px 5%;
+  background: var(--dark);
+  position: relative;
+  overflow: hidden;
+}
+.routes-section::before {
+  content: "";
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(244, 123, 32, 0.08), transparent 70%);
+}
+.routes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 56px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Route pairs — one row per destination, Regular left | VIP right */
+.routes-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.route-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: box-shadow 0.3s;
+}
+.route-pair:hover {
+  box-shadow: 0 20px 52px rgba(0, 0, 0, 0.35);
+}
+/* Destination label banner spanning both */
+.route-pair-label {
+  grid-column: 1 / -1;
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  padding: 12px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rpl-route {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.88);
+}
+.rpl-route .arrow {
+  color: var(--orange);
+}
+.rpl-meta {
+  font-size: 0.76rem;
+  color: rgba(255, 255, 255, 0.38);
+  display: flex;
+  gap: 14px;
+}
+.route-card {
+  background: rgba(255, 255, 255, 0.03);
+  transition: background 0.25s;
+  cursor: pointer;
+  position: relative;
+}
+.route-card:hover {
+  background: rgba(255, 255, 255, 0.065);
+}
+.route-card.vip-card {
+  border-left: 1px solid rgba(255, 255, 255, 0.07);
+}
+/* Gold top accent on VIP card */
+.route-card.vip-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--orange), var(--gold));
+}
+.route-badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 50px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 10px;
+}
+.route-badge.vip {
+  background: var(--orange);
+  color: white;
+}
+.route-badge.regular {
+  background: var(--blue-mid);
+  color: white;
+}
+.route-body {
+  padding: 22px 24px;
+}
+
+/* ─── NEW: Route Thumb Image Styles ─── */
+.route-price-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.route-thumb-link {
+  flex-shrink: 0;
+  display: block;
+  line-height: 0;
+}
+.route-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s, border-color 0.2s;
+}
+.route-thumb:hover {
+  transform: scale(1.05);
+  border-color: var(--orange);
+}
+.route-price-info {
+  flex: 1;
+  min-width: 0;
+}
+.route-price {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.2rem;
+  color: var(--orange);
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+.route-price small {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.38);
+  font-weight: 400;
+}
+
+.route-meta {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.route-meta span {
+  font-size: 0.76rem;
+  color: rgba(255, 255, 255, 0.42);
+}
+.route-meta span strong {
+  color: rgba(255, 255, 255, 0.72);
+}
+.btn-route {
+  width: 100%;
+  padding: 11px;
+  background: rgba(244, 123, 32, 0.1);
+  border: 1px solid rgba(244, 123, 32, 0.28);
+  border-radius: 10px;
+  color: var(--orange-light);
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: "DM Sans", sans-serif;
+}
+.btn-route:hover {
+  background: var(--orange);
+  color: white;
+  border-color: var(--orange);
+}
+.vip-card .btn-route {
+  background: rgba(244, 123, 32, 0.15);
+  border-color: rgba(244, 123, 32, 0.4);
+}
+@media (max-width: 600px) {
+  .route-pair {
+    grid-template-columns: 1fr;
+  }
+  .route-card.vip-card {
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+  }
+  .route-price-header {
+     flex-direction: column;
+     align-items: flex-start;
+     text-align: left;
+  }
+  .route-thumb {
+     width: 100%;
+     height: 140px;
+  }
+}
+/* ─── FEATURES ─── */
+.features-section {
+  padding: 100px 5%;
+  background: linear-gradient(170deg, #0D1F3C 0%, var(--dark) 100%);
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+  margin-top: 60px;
+}
+.feature-card {
+  padding: 32px 28px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.feature-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--orange), var(--blue-light));
+  transform: scaleX(0);
+  transition: transform 0.3s;
+  transform-origin: left;
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(244, 123, 32, 0.2);
+}
+.feature-card:hover::before {
+  transform: scaleX(1);
+}
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  background: rgba(244, 123, 32, 0.12);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+.feature-card:hover .feature-icon {
+  background: rgba(244, 123, 32, 0.25);
+}
+.feature-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: white;
+}
+.feature-card p {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* ─── VIP SECTION ─── */
+.vip-section {
+  padding: 100px 5%;
+  background: var(--cream);
+  overflow: hidden;
+}
+.vip-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.vip-visual {
+  position: relative;
+}
+
+.vip-main-card {
+  background: linear-gradient(145deg, var(--blue-deep), var(--blue-mid));
+  border-radius: 24px;
+  padding: 44px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(13, 43, 94, 0.25);
+}
+.vip-main-card::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: rgba(244, 123, 32, 0.15);
+}
+.vip-main-card::after {
+  content: "";
+  position: absolute;
+  bottom: -60px;
+  left: -60px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: rgba(91, 164, 230, 0.1);
+}
+.vip-tag {
+  display: inline-block;
+  background: var(--orange);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.vip-main-card h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+.vip-amenities {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+.vip-amenity {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+.vip-amenity::before {
+  content: "✓";
+  color: var(--orange-light);
+  font-weight: 700;
+}
+.vip-accent {
+  position: absolute;
+  bottom: -20px;
+  right: 30px;
+  background: var(--orange);
+  color: white;
+  border-radius: 16px;
+  padding: 16px 22px;
+  box-shadow: 0 10px 30px rgba(244, 123, 32, 0.4);
+}
+.vip-accent .acc-num {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 0.02em;
+}
+.vip-accent .acc-label {
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+.vip-content .section-title {
+  color: var(--blue-deep);
+}
+.vip-list {
+  list-style: none;
+  margin: 28px 0 36px;
+}
+.vip-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(13, 43, 94, 0.08);
+  font-size: 0.92rem;
+  color: #374151;
+  line-height: 1.5;
+}
+.vip-list li:last-child {
+  border-bottom: none;
+}
+.vip-list li .li-icon {
+  width: 28px;
+  height: 28px;
+  background: rgba(244, 123, 32, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+/* ─── TRACKING ─── */
+.tracking-section {
+  padding: 100px 5%;
+  background: var(--dark);
+}
+.tracking-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+.map-placeholder {
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+  height: 380px;
+  background: linear-gradient(135deg, #0D2040, #1A3A6E);
+  border: 2px solid rgba(13, 43, 94, 0.1);
+}
+.map-grid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(91, 164, 230, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(91, 164, 230, 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+.map-route-line {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  right: 15%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--orange), var(--blue-light));
+  border-radius: 2px;
+  transform: translateY(-50%) rotate(-8deg);
+}
+.map-dot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.map-dot.start {
+  background: var(--orange);
+  top: 42%;
+  left: 16%;
+}
+.map-dot.end {
+  background: var(--sky);
+  top: 46%;
+  right: 18%;
+}
+.map-dot.bus {
+  background: var(--orange);
+  top: 40%;
+  left: 55%;
+  width: 22px;
+  height: 22px;
+  border: 3px solid white;
+  box-shadow: 0 0 0 6px rgba(244, 123, 32, 0.3);
+  animation: busMove 4s ease-in-out infinite alternate;
+}
+@keyframes busMove {
+  from {
+    left: 35%;
+  }
+  to {
+    left: 60%;
+  }
+}
+.map-labels {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.map-label {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: white;
+}
+.tracking-content .section-title {
+  color: white;
+  margin-bottom: 8px;
+}
+.tracking-content .section-sub {
+  color: rgba(255, 255, 255, 0.55);
+}
+.tracking-steps {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tracking-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.step-num {
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.step-info h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.step-info p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.5;
+}
+
+/* ─── CARGO ─── */
+.cargo-section {
+  padding: 100px 5%;
+  background: linear-gradient(135deg, var(--blue-deep) 0%, #0A1A3E 100%);
+}
+.cargo-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.cargo-content .section-title {
+  color: white;
+}
+.cargo-content .section-sub {
+  color: rgba(255, 255, 255, 0.55);
+}
+.cargo-form {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;
+  padding: 36px;
+}
+.cargo-form h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: white;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.form-group-dark label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.form-group-dark input,
+.form-group-dark select,
+.form-group-dark textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 12px 16px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.form-group-dark input:focus,
+.form-group-dark select:focus,
+.form-group-dark textarea:focus {
+  border-color: var(--orange);
+}
+.form-group-dark textarea {
+  resize: none;
+  height: 80px;
+}
+.form-group-dark {
+  margin-bottom: 14px;
+}
+.form-group-dark select option {
+  background: #1A2F5E;
+}
+
+/* ─── CONTACT ─── */
+.contact-section {
+  padding: 100px 5%;
+  background: var(--cream);
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contact-info .section-title {
+  color: var(--blue-deep);
+  font-size: 1.8rem;
+}
+.contact-info .section-sub {
+  color: var(--gray);
+}
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  border-radius: 14px;
+  padding: 18px 22px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.contact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+.cc-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+.cc-orange {
+  background: rgba(244, 123, 32, 0.12);
+}
+.cc-green {
+  background: rgba(37, 211, 102, 0.12);
+}
+.cc-blue {
+  background: rgba(26, 74, 158, 0.1);
+}
+.contact-card .cc-text .cc-label {
+  font-size: 0.75rem;
+  color: var(--gray);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.contact-card .cc-text .cc-val {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--blue-deep);
+  margin-top: 2px;
+}
+.map-embed {
+  border-radius: 20px;
+  overflow: hidden;
+  height: 320px;
+  background: #e8f0fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(13, 43, 94, 0.1);
+  position: relative;
+}
+.map-embed-inner {
+  text-align: center;
+  color: var(--blue-deep);
+}
+.map-embed-inner .map-emoji {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+.map-embed-inner p {
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+.map-embed-inner a {
+  display: inline-block;
+  margin-top: 12px;
+  background: var(--blue-mid);
+  color: white;
+  padding: 10px 22px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.map-embed-inner a:hover {
+  background: var(--blue-deep);
+}
+
+/* ─── FOOTER ─── */
+footer {
+  background: #030810;
+  padding: 72px 5% 0;
+  border-top: 1px solid rgba(201, 168, 76, 0.14);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 52px;
+}
+.footer-brand .nav-logo {
+  margin-bottom: 16px;
+}
+.footer-brand p {
+  font-size: 0.83rem;
+  color: rgba(255, 255, 255, 0.35);
+  line-height: 1.74;
+  max-width: 250px;
+}
+.footer-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.soc-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+.soc-btn:hover {
+  background: var(--orange);
+  border-color: var(--orange);
+}
+.footer-col h4 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(201, 168, 76, 0.55);
+  margin-bottom: 20px;
+}
+.footer-col ul {
+  list-style: none;
+}
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  color: rgba(255, 255, 255, 0.42);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+.footer-col ul li a:hover {
+  color: var(--orange-light);
+}
+.footer-bottom {
+  padding: 20px 0 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.045);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ft-copy {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.22);
+}
+.ft-credit {
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.16);
+  letter-spacing: 0.03em;
+}
+.ft-credit a {
+  color: rgba(255, 255, 255, 0.26);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 1px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.ft-credit a:hover {
+  color: var(--gold-light);
+  border-color: var(--gold);
+}
+/* ─── MODAL ─── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.modal-overlay.open {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal {
+  background: white;
+  border-radius: 24px;
+  padding: 40px;
+  width: 90%;
+  max-width: 480px;
+  position: relative;
+  transform: scale(0.9);
+  transition: transform 0.3s;
+}
+.modal-overlay.open .modal {
+  transform: scale(1);
+}
+.modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  color: var(--blue-deep);
+  margin-bottom: 6px;
+}
+.modal .modal-sub {
+  color: var(--gray);
+  font-size: 0.88rem;
+  margin-bottom: 28px;
+}
+.modal .form-group {
+  margin-bottom: 16px;
+}
+.modal .form-group label {
+  color: var(--blue-deep);
+}
+.wa-submit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25d366;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+.wa-submit:hover {
+  background: #1da855;
+}
+/* ─── RESPONSIVE ─── */
+@media (max-width: 900px) {
+  .hero-visual {
+    display: none;
+  }
+  .hero-content {
+    max-width: 100%;
+  }
+  .booking-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .booking-grid > *:last-child {
+    grid-column: 1 / -1;
+  }
+  .vip-inner,
+  .tracking-inner,
+  .cargo-inner,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hero-stats {
+    gap: 24px;
+  }
+  .booking-grid {
+    grid-template-columns: 1fr;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-btns {
+    flex-direction: column;
+  }
+  .vip-amenities {
+    grid-template-columns: 1fr;
+  }
+}
+/* ─── SCROLL ANIMATIONS ─── */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mobile nav open state */
+@media (max-width: 600px) {
+  .nav-links.open {
+    display: flex !important;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    left: 0; right: 0;
+    background: rgba(6,13,26,0.98);
+    backdrop-filter: blur(20px);
+    padding: 20px 5% 28px;
+    gap: 6px;
+    border-bottom: 1px solid rgba(201,168,76,0.15);
+    z-index: 999;
+  }
+  .nav-links.open li a {
+    display: block;
+    padding: 12px 0;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <div class="logo-icon">
+      <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.01.25%20AM.jpeg" />
+    </div>
+    <h1>Bebeto<br /><span>Coach Services</span></h1>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#routes">Routes</a></li>
+    <li><a href="#features">Services</a></li>
+    <li><a href="#vip">VIP Class</a></li>
+    <li><a href="#tracking">Track Bus</a></li>
+    <li><a href="#cargo">Cargo</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#booking" class="nav-cta">Book Now</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">East Africa's Premier Coach Service</div>
+    <h2>
+      Travel in<br /><em>Comfort</em><br />Across East Africa
+    </h2>
+    <p>
+      From Nairobi to Kampala, Kigali, Goma, Juba & Bujumbura — premium VIP and Regular class coaches connecting you to the region.
+    </p>
+    <div class="hero-btns">
+      <a href="#booking" class="btn-primary">🎟 Book Your Seat</a>
+      <a href="#routes" class="btn-secondary">📍 View All Routes</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item"><h3>5+</h3><p>Destinations</p></div>
+      <div class="stat-item"><h3>VIP</h3><p>Luxury Class</p></div>
+      <div class="stat-item"><h3>24/7</h3><p>Support</p></div>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-visual-inner">
+      <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.01.25%20AM.jpeg" alt="Bebeto Bus" style="width:100%; height:auto; border-radius:8px; object-fit:cover;">
+    </div>
+
+    <div class="float-card card1">
+      <div class="card-label">Next Departure</div>
+      <div class="card-val">Nairobi → Kampala</div>
+      <div class="card-sub">⏰ 06:00 AM Daily</div>
+    </div>
+
+    <div class="float-card card2">
+      <div class="card-label">VIP Class from</div>
+      <div class="card-val">KES 6,000</div>
+      <div class="card-sub">🛡 WiFi · AC · Leather Seats</div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking-section" id="booking">
+  <div class="section-tag" style="background:rgba(244,123,32,0.1);border:1px solid rgba(244,123,32,0.28);color:var(--orange-dark)">Quick Booking</div>
+  <h2 class="section-title">
+    Book Your <span>Journey</span>
+  </h2>
+  <p class="section-sub">
+    Select your route and we'll send your booking request directly to WhatsApp for instant confirmation.
+  </p>
+
+  <div class="booking-card">
+    <div class="class-tabs">
+      <div class="class-tab active" onclick="setClass(this, 'Regular')">🚌 Regular Class</div>
+      <div class="class-tab" onclick="setClass(this, 'VIP')">⭐ VIP Class</div>
+    </div>
+    <div class="booking-grid">
+      <div class="form-group">
+        <label>From</label>
+        <select id="from">
+          <option value="Nairobi">Nairobi</option>
+          <option value="Kampala">Kampala</option>
+          <option value="Kigali">Kigali</option>
+          <option value="Juba">Juba</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>To</label>
+        <select id="to">
+          <option value="Kampala">Kampala</option>
+          <option value="Kigali">Kigali</option>
+          <option value="Goma">Goma</option>
+          <option value="Juba">Juba</option>
+          <option value="Bujumbura">Bujumbura</option>
+          <option value="Nairobi">Nairobi</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Travel Date</label>
+        <input type="date" id="tdate" />
+      </div>
+      <div>
+        <button class="btn-book" onclick="bookNow()">📲 Book via WhatsApp</button>
+      </div>
+    </div>
+    <div class="whatsapp-note">
+      <div class="wa-icon">💬</div>
+      <span>
+        Booking requests are sent directly to our WhatsApp team for quick confirmation. No account needed.
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- ROUTES -->
+<section class="routes-section" id="routes">
+  <div class="routes-header reveal">
+    <div>
+      <div class="section-tag">Our Routes</div>
+      <h2 class="section-title" style="color:white">
+        Popular <span>Destinations</span>
+      </h2>
+    </div>
+    <a href="#booking" class="btn-primary" style="font-size:0.88rem; padding:12px 24px;">View All Routes</a>
+  </div>
+
+  <!-- Column headers -->
+  <div
+    style="display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0 2px;margin-bottom:-16px"
+    class="reveal"
+  >
+    <div style="text-align:center;padding:8px 0">
+      <span
+        style="font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(91,164,230,0.7)"
+        >🚌 Regular Class</span
+      >
+    </div>
+    <div style="text-align:center;padding:8px 0">
+      <span
+        style="font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(244,123,32,0.9)"
+        >⭐ VIP Class</span
+      >
+    </div>
+  </div>
+
+  <div class="routes-grid">
+    <!-- Nairobi → Kampala -->
+    <div class="route-pair reveal">
+      <div class="route-pair-label">
+        <div class="rpl-route"
+          ><span>Nairobi</span><span class="arrow">→</span><span>Kampala</span></div
+        >
+        <div class="rpl-meta"><span>🕐 ~10 hrs</span><span>📅 Daily</span></div>
+      </div>
+      <!-- REGULAR CARD -->
+      <div class="route-card">
+        <div class="route-body">
+          <div class="route-price-header">
+            <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(2).jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(2).jpeg" alt="Regular Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge regular">Regular</div>
+               <div class="route-price">KES 3,500 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🚌 <strong>Standard seats</strong></span
+          ><span>📅 <strong>Daily</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Kampala','Regular','3500')"
+            >Book Regular</button
+          >
+        </div>
+      </div>
+      <!-- VIP CARD -->
+      <div class="route-card vip-card">
+        <div class="route-body">
+           <div class="route-price-header">
+             <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.37%20AM.jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.37%20AM.jpeg" alt="VIP Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge vip">VIP</div>
+               <div class="route-price">KES 6,000 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🛡 <strong>WiFi & AC</strong></span
+          ><span>🔌 <strong>USB charging</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Kampala','VIP','6000')"
+            >Book VIP</button
+          >
+        </div>
+      </div>
+    </div>
+    
+    <!-- Nairobi → Kigali -->
+    <div class="route-pair reveal">
+      <div class="route-pair-label">
+        <div class="rpl-route"
+          ><span>Nairobi</span><span class="arrow">→</span><span>Kigali</span></div
+        >
+        <div class="rpl-meta"><span>🕐 ~14 hrs</span><span>📅 Daily</span></div>
+      </div>
+       <!-- REGULAR CARD -->
+      <div class="route-card">
+        <div class="route-body">
+          <div class="route-price-header">
+            <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(1).jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(1).jpeg" alt="Regular Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge regular">Regular</div>
+               <div class="route-price">KES 7,000 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🚌 <strong>Standard seats</strong></span
+          ><span>📅 <strong>Daily</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Kigali','Regular','7000')"
+            >Book Regular</button
+          >
+        </div>
+      </div>
+      <!-- VIP CARD -->
+      <div class="route-card vip-card">
+        <div class="route-body">
+          <div class="route-price-header">
+             <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(3).jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(3).jpeg" alt="VIP Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge vip">VIP</div>
+               <div class="route-price">KES 11,000 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🛡 <strong>WiFi & AC</strong></span
+          ><span>🔌 <strong>USB charging</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Kigali','VIP','11000')"
+            >Book VIP</button
+          >
+        </div>
+      </div>
+    </div>
+    
+    <!-- Nairobi → Juba -->
+    <div class="route-pair reveal">
+      <div class="route-pair-label">
+        <div class="rpl-route"
+          ><span>Nairobi</span><span class="arrow">→</span><span>Juba</span></div
+        >
+        <div class="rpl-meta"><span>🕐 ~18 hrs</span><span>📅 Daily</span></div>
+      </div>
+      <!-- REGULAR CARD -->
+      <div class="route-card">
+        <div class="route-body">
+          <div class="route-price-header">
+            <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(2).jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(2).jpeg" alt="Regular Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge regular">Regular</div>
+               <div class="route-price">KES 6,500 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🚌 <strong>Standard seats</strong></span
+          ><span>📅 <strong>Daily</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Juba','Regular','6500')"
+            >Book Regular</button
+          >
+        </div>
+      </div>
+      <!-- VIP CARD -->
+      <div class="route-card vip-card">
+        <div class="route-body">
+           <div class="route-price-header">
+             <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.37%20AM.jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.37%20AM.jpeg" alt="VIP Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge vip">VIP</div>
+               <div class="route-price">KES 13,500 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🛡 <strong>WiFi & AC</strong></span
+          ><span>🔌 <strong>USB charging</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Juba','VIP','13500')"
+            >Book VIP</button
+          >
+        </div>
+      </div>
+    </div>
+    
+    <!-- Nairobi → Goma -->
+    <div class="route-pair reveal">
+      <div class="route-pair-label">
+        <div class="rpl-route"
+          ><span>Nairobi</span><span class="arrow">→</span><span>Goma</span></div
+        >
+        <div class="rpl-meta"><span>🕐 ~16 hrs</span><span>📅 Daily</span></div>
+      </div>
+      <!-- REGULAR CARD -->
+      <div class="route-card">
+        <div class="route-body">
+          <div class="route-price-header">
+            <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(1).jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(1).jpeg" alt="Regular Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge regular">Regular</div>
+               <div class="route-price">KES 6,000 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🚌 <strong>Standard seats</strong></span
+          ><span>📅 <strong>Daily</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Goma','Regular','6000')"
+            >Book Regular</button
+          >
+        </div>
+      </div>
+      <!-- VIP CARD -->
+      <div class="route-card vip-card">
+        <div class="route-body">
+           <div class="route-price-header">
+             <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(3).jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(3).jpeg" alt="VIP Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge vip">VIP</div>
+               <div class="route-price">KES 11,000 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🛡 <strong>WiFi & AC</strong></span
+          ><span>🔌 <strong>USB charging</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Goma','VIP','11000')"
+            >Book VIP</button
+          >
+        </div>
+      </div>
+    </div>
+    
+    <!-- Nairobi → Bujumbura -->
+    <div class="route-pair reveal">
+      <div class="route-pair-label">
+        <div class="rpl-route"
+          ><span>Nairobi</span><span class="arrow">→</span><span>Bujumbura</span></div
+        >
+        <div class="rpl-meta"><span>🕐 ~16 hrs</span><span>📅 Daily</span></div>
+      </div>
+      <!-- REGULAR CARD -->
+      <div class="route-card">
+        <div class="route-body">
+          <div class="route-price-header">
+            <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(2).jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.36%20AM%20(2).jpeg" alt="Regular Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge regular">Regular</div>
+               <div class="route-price">KES 7,500 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🚌 <strong>Standard seats</strong></span
+          ><span>📅 <strong>Daily</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Bujumbura','Regular','7500')"
+            >Book Regular</button
+          >
+        </div>
+      </div>
+      <!-- VIP CARD -->
+      <div class="route-card vip-card">
+        <div class="route-body">
+           <div class="route-price-header">
+             <a href="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.37%20AM.jpeg" target="_blank" class="route-thumb-link">
+               <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.30.37%20AM.jpeg" alt="VIP Coach" class="route-thumb">
+            </a>
+            <div class="route-price-info">
+               <div class="route-badge vip">VIP</div>
+               <div class="route-price">KES 9,000 <small>/ person</small></div>
+            </div>
+          </div>
+          <div class="route-meta"
+            ><span>🛡 <strong>WiFi & AC</strong></span
+          ><span>🔌 <strong>USB charging</strong></span></div
+          >
+          <button
+            class="btn-route"
+            onclick="quickBook('Nairobi','Bujumbura','VIP','9000')"
+            >Book VIP</button
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section" id="features">
+  <div class="reveal" style="text-align:center; max-width:560px; margin:0 auto;">
+    <div class="section-tag">Why Choose Us</div>
+    <h2 class="section-title" style="color:white"
+      >Everything You Need for a <span>Comfortable Journey</span></h2
+    >
+  </div>
+  <div class="features-grid">
+    <div class="feature-card reveal">
+      <div class="feature-icon">📲</div>
+      <h3>WhatsApp Booking</h3>
+      <p>
+        Book your seat directly via WhatsApp. No app downloads. No queues.
+        Instant confirmation from our team.
+      </p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">📍</div>
+      <h3>Real-Time Bus Tracking</h3>
+      <p>
+        Know exactly where your bus is. Reduce waiting time and plan your
+        journey with confidence using live tracking.
+      </p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">🛡</div>
+      <h3>VIP Comfort Class</h3>
+      <p>
+        WiFi, AC, leather seats, USB charging, TV, and seat lighting. Long-distance travel done in style.
+      </p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">📦</div>
+      <h3>Parcel & Cargo Delivery</h3>
+      <p>
+        Send parcels across East Africa safely through our trusted cargo network.
+        Door-to-terminal delivery available.
+      </p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">📅</div>
+      <h3>Daily Departures</h3>
+      <p>
+        Multiple departure times every day so you travel when it suits you, not when it suits us.
+      </p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">💬</div>
+      <h3>24/7 Support</h3>
+      <p>
+        Our team is always reachable via WhatsApp and phone for any questions before, during, or after your journey.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- VIP SECTION -->
+<section class="vip-section" id="vip">
+  <div class="vip-inner">
+    <div class="vip-visual reveal">
+      <div class="vip-main-card">
+        <div class="vip-tag">VIP Class</div>
+        <h3>Travel Like You Deserve</h3>
+        <div class="vip-amenities">
+          <div class="vip-amenity">WiFi On Board</div>
+          <div class="vip-amenity">Air Conditioning</div>
+          <div class="vip-amenity">Leather Seats</div>
+          <div class="vip-amenity">USB Charging</div>
+          <div class="vip-amenity">Entertainment TV</div>
+          <div class="vip-amenity">Seat Lighting</div>
+          <div class="vip-amenity">Extra Legroom</div>
+          <div class="vip-amenity">Refreshments</div>
+        </div>
+      </div>
+      <div class="vip-accent">
+        <div class="acc-num">100%</div>
+        <div class="acc-label">Comfort Guaranteed</div>
+      </div>
+    </div>
+
+    <div class="vip-content reveal">
+      <div
+        class="section-tag"
+        style="background:rgba(244,123,32,0.1);border:1px solid rgba(244,123,32,0.28);color:var(--orange-dark)"
+        >Premium Experience</div
+      >
+      <h2 class="section-title">
+        The <span>VIP Coach</span> Experience
+      </h2>
+      <p class="section-sub">
+        Our VIP coaches are the go-to luxury buses for travel between Nairobi, Kampala, Juba, and beyond.
+      </p>
+
+      <ul class="vip-list">
+        <li>
+          <div class="li-icon">✈</div>
+          <div>Business-class style comfort on long routes across East Africa</div>
+        </li>
+        <li>
+          <div class="li-icon">📶</div>
+          <div>Stay connected with onboard WiFi throughout your journey</div>
+        </li>
+        <li>
+          <div class="li-icon">❄</div>
+          <div>Climate-controlled cabin keeps you comfortable in all weather</div>
+        </li>
+        <li>
+          <div class="li-icon">🔒</div>
+          <div>Secure luggage storage with monitored baggage handling</div>
+        </li>
+      </ul>
+
+      <a href="#booking" class="btn-primary">⭐ Book VIP Class Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRACKING -->
+<section class="tracking-section" id="tracking">
+  <div class="tracking-inner">
+    <div class="map-placeholder reveal">
+      <div class="map-grid"></div>
+      <div class="map-route-line"></div>
+      <div class="map-dot start"></div>
+      <div class="map-dot end"></div>
+      <div class="map-dot bus">🚌</div>
+      <div class="map-labels">
+        <div class="map-label">📍 Nairobi</div>
+        <div class="map-label">🏁 Kampala</div>
+      </div>
+    </div>
+
+    <div class="tracking-content reveal">
+      <div class="section-tag">Live Tracking</div>
+      <h2 class="section-title" style="color:white"
+        >Track Your Bus in <span>Real Time</span></h2
+      >
+      <p class="section-sub">
+        Know where your bus is at all times. No more guessing at the station.
+      </p>
+
+      <!-- Payment notice -->
+      <div
+        style="
+          display:flex;
+          align-items:flex-start;
+          gap:13px;
+          background:rgba(244,123,32,0.1);
+          border:1px solid rgba(244,123,32,0.35);
+          border-radius:14px;
+          padding:16px 18px;
+          margin-bottom:28px;
+        "
+      >
+        <div style="font-size:1.3rem;flex-shrink:0;margin-top:1px">🔒</div>
+        <div>
+          <div
+            style="
+              font-size:0.88rem;
+              font-weight:700;
+              color:#FFB347;
+              margin-bottom:4px;
+            "
+            >Paid Passengers Only</div
+          >
+          <div
+            style="
+              font-size:0.8rem;
+              color:rgba(255,255,255,0.55);
+              line-height:1.6;
+            "
+            >Bus tracking is available exclusively to passengers who have completed payment.
+            Once your booking is confirmed and paid, you will receive a tracking link via WhatsApp.
+          </div>
+        </div>
+      </div>
+
+      <div class="tracking-steps">
+        <div class="tracking-step">
+          <div class="step-num">1</div>
+          <div class="step-info">
+            <h4>Book & Pay</h4>
+            <p>Complete your booking and payment via WhatsApp to receive your tracking access.</p>
+          </div>
+        </div>
+        <div class="tracking-step">
+          <div class="step-num">2</div>
+          <div class="step-info">
+            <h4>View Live Location</h4>
+            <p>See exactly where your bus is and its estimated arrival time.</p>
+          </div>
+        </div>
+        <div class="tracking-step">
+          <div class="step-num">3</div>
+          <div class="step-info">
+            <h4>Arrive on Time</h4>
+            <p>Head to the station just in time. No waiting in queues for hours.</p>
+          </div>
+        </div>
+      </div>
+
+      <a
+        href="https://wa.me/254734435850?text=Hi!%20I'd%20like%20to%20track%20my%20bus."
+        class="btn-primary"
+        style="margin-top:28px; display:inline-flex;"
+        target="_blank"
+        >💬 Ask on WhatsApp</a
+      >
+    </div>
+  </div>
+</section>
+
+<!-- CARGO -->
+<section class="cargo-section" id="cargo">
+  <div class="cargo-inner">
+    <div class="cargo-content reveal">
+      <div
+        class="section-tag"
+        style="background:rgba(244,123,32,0.2); color:#FFB347;"
+        >Cargo Services</div
+      >
+      <h2 class="section-title" style="color:white"
+        >Send Parcels<br />Across <span>East Africa</span></h2
+      >
+      <p class="section-sub">
+        Reliable parcel and cargo delivery between all our destinations. Fast, safe, and affordable.
+      </p>
+
+      <ul class="vip-list" style="border-top:1px solid rgba(255,255,255,0.08);">
+        <li style="border-bottom:1px solid rgba(255,255,255,0.08); color:rgba(255,255,255,0.75);">
+          <div class="li-icon">📦</div>
+          <div>Same-route delivery alongside our daily scheduled buses</div>
+        </li>
+        <li style="border-bottom:1px solid rgba(255,255,255,0.08); color:rgba(255,255,255,0.75);">
+          <div class="li-icon">🔒</div>
+          <div>Secure handling and tracking for all parcels</div>
+        </li>
+        <li style="color:rgba(255,255,255,0.75);">
+          <div class="li-icon">📞</div>
+          <div>Recipient notification upon arrival at destination terminal</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="cargo-form reveal">
+      <h3>📦 Cargo Inquiry</h3>
+      <div class="form-row">
+        <div class="form-group-dark">
+          <label>From</label>
+          <select id="cargo-from">
+            <option>Nairobi</option>
+            <option>Kampala</option>
+            <option>Kigali</option>
+            <option>Juba</option>
+          </select>
+        </div>
+        <div class="form-group-dark">
+          <label>To</label>
+          <select id="cargo-to">
+            <option>Kampala</option>
+            <option>Nairobi</option>
+            <option>Kigali</option>
+            <option>Goma</option>
+            <option>Juba</option>
+            <option>Bujumbura</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group-dark">
+        <label>Your Name</label>
+        <input type="text" id="cargo-name" placeholder="Full name" />
+      </div>
+      <div class="form-group-dark">
+        <label>Phone Number</label>
+        <input type="tel" id="cargo-phone" placeholder="+254..." />
+      </div>
+      <div class="form-group-dark">
+        <label>Parcel Description</label>
+        <textarea
+          id="cargo-desc"
+          placeholder="Describe your parcel (weight, size, contents)..."
+        ></textarea>
+      </div>
+      <button class="wa-submit" onclick="cargoBook()">💬 Send Cargo Inquiry via WhatsApp</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div style="text-align:center; margin-bottom:60px;" class="reveal">
+    <div
+      class="section-tag"
+      style="background:rgba(244,123,32,0.1);border:1px solid rgba(244,123,32,0.28);color:var(--orange-dark)"
+      >Get In Touch</div
+    >
+    <h2 class="section-title">
+      We're <span>Here for You</span>
+    </h2>
+    <p class="section-sub" style="margin:0 auto;">
+      Reach our team for bookings, inquiries, or support anytime.
+    </p>
+  </div>
+
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <h3 class="section-title" style="font-size:1.8rem;">Contact <span>Bebeto Coach</span></h3>
+      <p class="section-sub">
+        Our team is available to help with bookings, route information, and cargo services.
+      </p>
+
+      <div class="contact-cards">
+        <a class="contact-card" href="tel:+254734435850">
+          <div class="cc-icon cc-orange">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z" fill="#F47B20"/>
+            </svg>
+          </div>
+          <div class="cc-text">
+            <div class="cc-label">Call Us</div>
+            <div class="cc-val">+254 734 435 850</div>
+          </div>
+        </a>
+        <a class="contact-card" href="https://wa.me/254734435850" target="_blank">
+          <div class="cc-icon cc-green">
+            <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="#25D366"/>
+            </svg>
+          </div>
+          <div class="cc-text">
+            <div class="cc-label">WhatsApp</div>
+            <div class="cc-val">+254 734 435 850</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div
+        style="
+          overflow:hidden;
+          border-radius:20px;
+          border:1px solid rgba(10,22,40,0.12);
+          box-shadow:0 8px 32px rgba(0,0,0,0.1);
+        "
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8415!2d36.8302!3d-1.2855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zLTEuMjg1NSwzNi44MzAy!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
+          width="100%"
+          height="460"
+          style="border:0;display:block"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Bebeto Coach Service - River Rd Nairobi"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="nav-logo">
+        <div class="logo-icon">
+          <img src="https://bebetocoach.neocities.org/WhatsApp%20Image%202026-03-10%20at%209.01.25%20AM.jpeg" alt="Bebeto Logo" />
+        </div>
+        <h1>
+          Bebeto<br /><span>Coach Services</span>
+        </h1>
+      </div>
+      <p>
+        "Team Comfort Zone" — Connecting East Africa with premium passenger and cargo transport since day one.
+      </p>
+      <div class="footer-social">
+        <a class="soc-btn" href="https://wa.me/254734435850" target="_blank">💬</a>
+        <a class="soc-btn" href="tel:+254734435850">📞</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Routes</h4>
+      <ul>
+        <li><a href="#">Nairobi → Kampala</a></li>
+        <li><a href="#">Nairobi → Kigali</a></li>
+        <li><a href="#">Nairobi → Goma</a></li>
+        <li><a href="#">Nairobi → Juba</a></li>
+        <li><a href="#">Nairobi → Bujumbura</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#features">Online Booking</a></li>
+        <li><a href="#vip">VIP Class</a></li>
+        <li><a href="#cargo">Cargo Delivery</a></li>
+        <li><a href="#tracking">Bus Tracking</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacts</h4>
+      <ul>
+        <li><a href="tel:+254734435850">+254 734 435 850</a></li>
+        <li><a href="https://wa.me/254734435850">WhatsApp Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="ft-copy">© 2025 Bebeto Coach Services Ltd. All rights reserved.</p>
+    <p class="ft-credit">website by materiaprimadesigns</p>
+  </div>
+</footer>
+
+<!-- BOOKING MODAL -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <h2>Complete Booking</h2>
+    <p class="modal-sub">We'll send your request to WhatsApp for instant confirmation.</p>
+
+    <div class="form-group">
+      <label>Full Name</label>
+      <input type="text" id="m-name" placeholder="Your full name" />
+    </div>
+    <div class="form-group">
+      <label>Phone Number</label>
+      <input type="tel" id="m-phone" placeholder="+254 or +256..." />
+    </div>
+    <div class="form-group">
+      <label>Number of Seats</label>
+      <select id="m-seats">
+        <option>1 seat</option>
+        <option>2 seats</option>
+        <option>3 seats</option>
+        <option>4 seats</option>
+        <option>5+ seats</option>
+      </select>
+    </div>
+    <div
+      id="modal-summary"
+      style="
+        background:#fff8f0;
+        border:1px solid #f47b20 30;
+        border-radius:10px;
+        padding:14px;
+        margin-bottom:16px;
+        font-size:0.88rem;
+        color:#374151;
+      "
+    ></div>
+    <button class="wa-submit" onclick="submitBooking()">💬 Send Booking via WhatsApp</button>
+  </div>
+</div>
+
+<script>
+// Set min date for booking
+document.getElementById('tdate').min = new Date().toISOString().split('T')[0];
+document.getElementById('tdate').value = new Date().toISOString().split('T')[0];
+
+let selectedClass = 'Regular';
+let bookingData = {};
+
+function setClass(el, cls) {
+  document.querySelectorAll('.class-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  selectedClass = cls;
+}
+
+function bookNow() {
+  const from = document.getElementById('from').value;
+  const to = document.getElementById('to').value;
+  const date = document.getElementById('tdate').value;
+  if (!date) { alert('Please select a travel date.'); return; }
+  bookingData = { from, to, date, cls: selectedClass };
+  showModal();
+}
+
+function quickBook(from, to, cls, price) {
+  bookingData = { from, to, date: '', cls, price };
+  document.getElementById('m-seats').value = '1 seat';
+  updateSummary();
+  document.getElementById('modal').classList.add('open');
+}
+
+function showModal() {
+  updateSummary();
+  document.getElementById('modal').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+}
+
+function updateSummary() {
+  const d = bookingData;
+  document.getElementById('modal-summary').innerHTML =
+    `🚌 <strong>${d.from || '—'} → ${d.to || '—'}</strong> &nbsp;|&nbsp; ${d.cls} Class ${d.price ? '| <strong>KES ' + parseInt(d.price).toLocaleString() + '</strong>' : ''} ${d.date ? '| 📅 ' + d.date : ''}`;
+}
+
+function submitBooking() {
+  const name = document.getElementById('m-name').value.trim();
+  const phone = document.getElementById('m-phone').value.trim();
+  const seats = document.getElementById('m-seats').value;
+  if (!name || !phone) { alert('Please fill in your name and phone number.'); return; }
+  const d = bookingData;
+  const msg = `Hello Bebeto Coach Services! I'd like to book a seat.\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Route:* ${d.from} → ${d.to}\n*Class:* ${d.cls}\n*Date:* ${d.date || 'Flexible'}\n*Seats:* ${seats}${d.price ? '\n*Price:* KES ' + parseInt(d.price).toLocaleString() : ''}\n\nPlease confirm availability. Thank you!`;
+  window.open(`https://wa.me/254734435850?text=${encodeURIComponent(msg)}`, '_blank');
+  closeModal();
+}
+
+function cargoBook() {
+  const from = document.getElementById('cargo-from').value;
+  const to = document.getElementById('cargo-to').value;
+  const name = document.getElementById('cargo-name').value.trim();
+  const phone = document.getElementById('cargo-phone').value.trim();
+  const desc = document.getElementById('cargo-desc').value.trim();
+  if (!name || !phone) { alert('Please fill in your name and phone.'); return; }
+  const msg = `Hello! I'd like to send a parcel with Bebeto Coach.\n\n*Name:* ${name}\n*Phone:* ${phone}\n*From:* ${from}\n*To:* ${to}\n*Parcel:* ${desc || 'Not specified'}\n\nKindly advise on charges and pickup. Thank you!`;
+  window.open(`https://wa.me/254734435850?text=${encodeURIComponent(msg)}`, '_blank');
+}
+
+// ── Close modal on overlay background click ──
+document.getElementById('modal').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+
+// ── Hamburger menu ──
+function toggleMenu() {
+  const ul = document.querySelector('.nav-links');
+  ul.classList.toggle('open');
+}
+// Close nav on link click
+document.querySelectorAll('.nav-links a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.remove('open');
+  });
+});
+
+// ── Scroll reveal ──
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+</script>
+</body>
+</html>
