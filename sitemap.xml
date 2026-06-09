@@ -4,106 +4,99 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- Homepage -->
   <url>
-    <loc>https://bebetocoachservices.com/</loc>
+    <loc>https://bebetocoaches.online/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Destinations section -->
   <url>
-    <loc>https://bebetocoachservices.com/#destinations</loc>
+    <loc>https://bebetocoaches.online/#destinations</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Book Journey section -->
   <url>
-    <loc>https://bebetocoachservices.com/#book-journey</loc>
+    <loc>https://bebetocoaches.online/#book-journey</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Premium Routes section -->
   <url>
-    <loc>https://bebetocoachservices.com/#premium-routes</loc>
+    <loc>https://bebetocoaches.online/#premium-routes</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Why Choose section -->
   <url>
-    <loc>https://bebetocoachservices.com/#why-choose</loc>
+    <loc>https://bebetocoaches.online/#why-choose</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Contact section -->
   <url>
-    <loc>https://bebetocoachservices.com/#contact</loc>
+    <loc>https://bebetocoaches.online/#contact</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Key Routes – individual pages for SEO (canonical anchors) -->
   <url>
-    <loc>https://bebetocoachservices.com/#nairobi-kampala</loc>
+    <loc>https://bebetocoaches.online/#nairobi-kampala</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://bebetocoachservices.com/#nairobi-juba</loc>
+    <loc>https://bebetocoaches.online/#nairobi-juba</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://bebetocoachservices.com/#nairobi-kigali</loc>
+    <loc>https://bebetocoaches.online/#nairobi-kigali</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://bebetocoachservices.com/#nairobi-bujumbura</loc>
+    <loc>https://bebetocoaches.online/#nairobi-bujumbura</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://bebetocoachservices.com/#nairobi-goma</loc>
+    <loc>https://bebetocoaches.online/#nairobi-goma</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://bebetocoachservices.com/#kampala-juba</loc>
+    <loc>https://bebetocoaches.online/#kampala-juba</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://bebetocoachservices.com/#kampala-nairobi</loc>
+    <loc>https://bebetocoaches.online/#kampala-nairobi</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://bebetocoachservices.com/#juba-kampala</loc>
+    <loc>https://bebetocoaches.online/#juba-kampala</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
