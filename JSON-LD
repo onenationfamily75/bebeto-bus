@@ -1,9 +1,9 @@
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "TravelAgency",
-  "name": "Bebeto Coach",
-  "url": "https://bebetocoach.online",
-  "description": "Long-distance bus transportation and ticket booking services"
+ "@context":"https://schema.org",
+ "@type":"TravelAgency",
+ "name":"Bebeto Coach",
+ "url":"https://bebetocoach.online",
+ "areaServed":["Kenya","Uganda","Rwanda","South Sudan"]
 }
 </script>
